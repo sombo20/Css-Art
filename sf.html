@@ -1,0 +1,106 @@
+<body bgcolor="blue" >
+<div class="box"></div>
+<div class="red" ></div>
+<div class="a" ></div>
+<div class="black" ></div>
+<div class="p" ></div>
+<style type="text/css">
+.box {
+width: 90px;
+height:185px;
+background-color:rgb(16,49,64);
+position: absolute;
+left:100px;
+top:30px;
+border:8px solid white;
+border-radius:15px;
+}
+
+.p{
+width:20px;
+height:100px;
+position:relative;
+background:white;
+left:135px;
+top:65px;
+border-bottom-left-radius:2px;
+border-bottom-right-radius:2px;
+}
+
+.red{
+width:50px;
+height:50px;
+background:red;
+border-radius:100px;
+position:relative;
+left:120px;
+top:40px;
+-webkit-animation:red 9s 0s infinite;
+}
+
+@-webkit-keyframes red {
+0% {
+background: black;
+}
+2%, 40% {
+background-color: red;
+}
+42%, 100% {
+background: black;
+}
+}
+
+.a{
+width:50px;
+height:50px;
+background:black;
+border-radius:100px;
+position:relative;
+left:120px;
+top:50px;
+-webkit-animation: amber 9s 0s infinite;
+}
+
+@-webkit-keyframes amber {
+0%, 20% {
+background: black;
+}
+22%, 40% {
+background: #FF7E00;
+}
+42%, 80% {
+background: black;
+}
+82%, 100% {
+background: #FF7E00;
+}
+}
+
+
+
+.black {
+width:50px;
+height:50px;
+background:black;
+border-radius:100px;
+position:relative;
+left:120px;
+top:60px;
+-webkit-animation: green 9s 0s infinite;
+}
+
+@-webkit-keyframes green {
+0%, 40% {
+background: black;
+}
+42%, 80% {
+background: green;
+}
+82%, 100% {
+background: black;
+}
+}
+
+</style>
+
+</body>
